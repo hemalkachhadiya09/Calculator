@@ -25,7 +25,7 @@ body{
     height: 35%;
     
     padding: 10px; 
-    padding-left: 92%;
+    padding-left: 70%;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -110,4 +110,65 @@ body{
 .equal-sign:hover 
 {
     background-color: #d47f4e;
+}
+@media screen and (max-width:1340px)
+{
+    .screen{
+        padding-left: 50%;
+    }
+}
+@media screen and (max-width:1190px)
+{
+    .screen{
+        padding-left: 30%;
+    }
+}
+@media screen and (max-width:1040px)
+{
+    .screen{
+        padding-left: 15%;
+    }
+}
+@media screen and (max-width:925px)
+{
+    .screen{
+        padding-left: 0%;
+    }
+    
+}
+@media screen and (max-width:815px)
+{
+    .container
+    {
+        width: 35%;
+        height: 450px;
+    }
+    .screen{
+        padding-left: 0%;
+    }
+    
+}
+@media screen and (max-width:650px)
+{
+    .container
+    {
+        width: 45%;
+        height: 450px;
+    }
+    .screen{
+        padding-left: 0%;
+    }
+    
+}
+@media screen and (max-width:505px)
+{
+    .container
+    {
+        width: 55%;
+        height: 450px;
+    }
+    .screen{
+        padding-left: 0%;
+    }
+    
 }
